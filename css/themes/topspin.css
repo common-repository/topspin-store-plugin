@@ -1,0 +1,219 @@
+/* Topspin - Wordpress plugin -> Theme CSS -> Topspin */
+/* V1.0 */
+
+/* Offer Page */
+
+/* Offer Page -> Wrappers */
+
+div#topspin-offer-wrapper {
+	background: #000;
+	border: 1px solid #3D3D3D;
+}
+
+/* Offer Page -> Wrappers -> Wrapper Modifiers */
+
+div.topspin-offer-wrapper-columns-1 {
+}
+
+div.topspin-offer-wrapper-columns-2 {
+}
+
+div.topspin-offer-wrapper-columns-3 {
+}
+
+div.topspin-offer-wrapper-columns-4 {
+}
+
+div.topspin-offer-wrapper-columns-5 {
+}
+
+/* Offer Page -> Containers */
+
+div#topspin-offer-container {
+}
+
+/* Offer Page -> Containers -> Container Modifiers */
+
+
+div.topspin-offer-container-columns-1 {
+}
+
+div.topspin-offer-container-columns-2 {
+}
+
+div.topspin-offer-container-columns-3 {
+}
+
+div.topspin-offer-container-columns-4 {
+}
+
+div.topspin-offer-container-columns-5 {
+}
+
+/* Offer Page -> Items */
+
+div.topspin-offer-item-wrapper {
+}
+
+div.topspin-offer-item-wrapper-first {
+}
+
+div.topspin-offer-item-wrapper-2nd {
+}
+
+div.topspin-offer-item-wrapper-2nd-last {
+}
+
+div.topspin-offer-item-wrapper-last {
+}
+
+div.topspin-offer-item {
+	border: 1px solid #282828;
+}
+
+div.topspin-offer-item-title {
+	background: #000;
+}
+
+div.topspin-offer-item-title h4 {
+	color: #EEE;
+}
+
+div.topspin-offer-item-image {
+}
+
+div.topspin-offer-item-image img {
+}
+
+div.topspin-offer-item-buybutton-wrapper {
+	background: #000;
+}
+
+div.topspin-offer-item-buybutton-button {
+}
+
+div.topspin-offer-item-buybutton-button a {
+	border: 1px solid #282828;
+	color: #0CF;
+}
+
+div.topspin-offer-item-buybutton-price {
+}
+
+div.topspin-offer-item-buybutton-price p {
+	color: #EEE;
+}
+
+/* Offer Page -> Items -> Item Modifiers */
+
+div.topspin-offer-item-column-first {
+}
+
+div.topspin-offer-item-column-2nd {
+}
+
+div.topspin-offer-item-column-2nd-last {
+}
+
+div.topspin-offer-item-column-last {
+}
+
+div.topspin-offer-item-row-last {
+}
+
+div.topspin-offer-item-last {
+}
+
+/* Offer Page -> Items -> Column Modifiers */
+
+div.topspin-1of1 {
+}
+
+div.topspin-1of2 {
+}
+
+div.topspin-1of3 {
+}
+
+div.topspin-1of4 {
+}
+
+div.topspin-1of5 {
+}
+
+/* Offer Page -> Pagination */
+
+div#topspin-offer-pagination-wrapper {
+	background: #000;
+	border-top: 1px dashed #282828;
+}
+
+div#topspin-offer-pagination-container {
+}
+
+div#topspin-offer-pagination-total {
+	border: 1px solid #282828;
+	background: #000;
+}
+
+div#topspin-offer-pagination-total p {
+	color: #EEE;
+}
+
+div#topspin-offer-pagination-navigation {
+	border: 1px solid #282828;
+}
+
+div#topspin-offer-pagination-navigation p {
+	color: #666;
+}
+
+span.topspin-offer-pagination-page {
+}
+
+span.topspin-offer-pagination-page a {
+	color: #0CF;
+}
+
+span.topspin-offer-pagination-page-current {
+}
+
+span.topspin-offer-pagination-ellipsis {
+}
+
+span.topspin-offer-pagination-ellipsis-start {
+}
+
+span.topspin-offer-pagination-ellipsis-end {
+}
+
+span.topspin-offer-pagination-prev {
+}
+
+span.topspin-offer-pagination-prev a {
+	color: #0CF;
+}
+
+span.topspin-offer-pagination-next {
+}
+
+span.topspin-offer-pagination-next a {
+	color: #0CF;
+}
+
+span.topspin-offer-pagination-jump {
+}
+
+span.topspin-offer-pagination-jump-last {
+}
+
+span.topspin-offer-pagination-jump-last a {
+	color: #0CF;
+}
+
+span.topspin-offer-pagination-jump-first {
+}
+
+span.topspin-offer-pagination-jump-first a {
+	color: #0CF;
+}

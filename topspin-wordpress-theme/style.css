@@ -1,0 +1,416 @@
+/*
+Theme Name: Topspin
+Description: Default theme for Topspin Wordpress plug-in.
+Version: 2.0
+Author: Topspin Media & StageBloc
+Author URI: http://topspinmedia.com/
+Tags: topspin, fixed width, two columns, right sidebar, valid XHTML, valid CSS
+*/
+
+/* Reset
+-------------------------------------------------------------------*/
+* { padding: 0; margin: 0; }
+ul li, ol li { list-style: none; list-style-position: inside; }
+ol ol, ul ul, ol ul, ul ol { margin-left: 20px; margin-bottom: 0; }
+img { border: none; }
+
+
+
+/* Body
+-------------------------------------------------------------------*/
+body { 
+	margin: 0 auto;
+	font: 12px/17px Lucida Grande, Lucida Sans, Verdana, Helvetica, Arial, Geneva, sans-serif; 
+	color: #333; 
+	background-color: #000; 
+}
+
+h1, h2, h3, h4, h5, h6 { font-family: "Trebuchet MS", Helvetica, Arial, Geneva, Sans-Serif; color: #414d4c; }
+h1 { font-size: 22px; line-height: 26px; margin-bottom: 10px; }
+h2 { font-size: 12px; line-height: 24px; margin-bottom: 7px; font-weight: normal; }
+h3 { font-size: 20px; line-height: 25px; margin-bottom: 5px; }
+h4 { font-size: 16px; line-height: 20px; margin-bottom: 5px; }
+h5 { font-size: 14px; line-height: 18px; margin-bottom: 5px; }
+h6 { font-size: 12px; line-height: 16px; margin-bottom: 5px; }
+
+h1 span { color: #999; }
+
+a { 
+	color: #00CCFF;
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+
+p { margin-bottom: 10px; }
+
+input, textarea { font: 12px Verdana, Helvetica, Arial, Geneva, sans-serif; }
+
+blockquote { 
+	font: italic 14px/22px Georgia, Serif; 
+	padding: 5px 10px;
+	margin-bottom: 20px;
+	background: #e4ede2; 
+}
+
+.clear-both {
+	clear: both;
+}
+
+
+
+/* Site
+-------------------------------------------------------------------*/
+#site-wrapper {
+	width: 960px; /* Default value that can be overriden in the Topspin plugin settings */
+	margin: 0 auto;
+}
+
+
+/* Header
+-------------------------------------------------------------------*/
+#header-wrapper { 
+	position: relative; 
+}
+#header-wrapper #header-content {
+	text-align: center;
+	overflow: hidden;
+}
+
+
+/* Landing Page
+-------------------------------------------------------------------*/
+
+div#topspin-landingpage-wrapper {
+}
+
+div#topspin-landingpage-wrapper img.topspin-header {
+	width: 960px;
+}
+
+
+/* Container
+-------------------------------------------------------------------*/
+#wrapper { 
+	overflow: hidden; 
+	background-color: #FFF;
+}
+
+
+/* Navigation
+-------------------------------------------------------------------*/
+ul#topspin-pagenav {
+	list-style: none;
+	margin: 10px 0 0;
+	height: 51px;
+	width: 100%;
+}
+
+ul#topspin-pagenav li {
+	background-color: #333;
+	background-image: url("images/menu-divider-1px-000.gif");
+	background-repeat: repeat-y;
+	background-position: left top;
+	text-align: center;
+	float: left;
+	border-bottom: 1px solid #000;
+}
+
+ul#topspin-pagenav li.current_page_item {
+	background-color: #FFF;
+	background-image: url("images/menu-divider-1px-000.gif");
+	background-repeat: repeat-y;
+	background-position: left top;	
+	border-bottom: 1px solid #FFF;
+}
+
+ul#topspin-pagenav li a {
+	font-size: 16px;
+	display: block;
+	line-height: 20px;
+	padding: 15px 10px;
+}
+
+ul#topspin-pagenav li p {
+	font-size: 16px;
+	display: block;
+	margin: 0;
+	line-height: 20px;
+	padding: 15px 10px;
+}
+
+ul#topspin-pagenav li.nav-first {
+	background-image: none;
+}
+
+
+/* Content
+-------------------------------------------------------------------*/
+#content { 
+	width: 63%;
+	float: left; 
+	margin: 10px 0 0;
+	padding: 2%;
+}
+#content .post { 
+	margin-bottom: 40px;
+	border-bottom: dotted 1px #EEE;
+}
+#content .post p { margin-bottom: 14px; }
+#content .post h3 {
+	margin:0;
+}
+#content .post h3 a { font-size: 16px; }
+#content .post-list li { list-style: none; }
+#content .post .postedby {
+	position: relative;
+	font-size: 11px;
+	color: #CCC;
+}
+#content .post .postcontent {
+	margin:20px 0;
+}
+#content .post .post-info {
+	margin-bottom:40px;
+}
+
+#content #pages { text-align: center; }
+#content #pages a { font: bold 20px "Trebuchet MS"; color: #414d4c; text-decoration: none; }
+#content #pages a:hover { color: #1e2726; }
+
+#content ul, ol, dl { margin-bottom: 20px; }
+#content ul { 
+	list-style: disc;
+	list-style-position: inside; 
+}
+#content ol { 
+	list-style: decimal; 
+	list-style-position: inside; 
+}
+#content dl dt { 
+	font-weight: bold;
+}
+#content dl dd { 
+	font-style: italic;
+	margin: 0 0 5px 20px;
+	color: #555;
+}
+
+#content .archive-item .post .postcontent {
+	margin: 20px 0;
+}
+
+#content .archive-item .post .postimage {
+	float: left;
+	margin: 20px 10px 20px 0;
+}
+
+.aligncenter { margin-left: auto; margin-right: auto; }
+.alignleft { float: left; margin: 5px 15px 10px 0; }
+.alignright { float: right; margin: 5px 0 10px 15px; }
+
+
+
+/* Sidebar
+-------------------------------------------------------------------*/
+#sidebar { 
+	width: 33%;
+	float: right;
+	margin: 10px 0 0;
+	padding: 0 0 40px;
+	background: transparent url(images/divider-1px-eee.gif) 0 0 repeat-y;
+	color: #555;
+}
+
+#sidebar h3 { 
+	font-size: 17px;
+	font-weight: bold;
+	color: #333;		
+}
+
+/*
+#sidebar a { color: #38463e; text-decoration: none; }
+#sidebar a:hover { color: #38463e; }
+#sidebar .block a:hover { color: #777; }
+*/
+#sidebar .block {
+	margin: 0 20px;
+	padding: 15px 0 30px; 
+	border-bottom: 1px dotted #EEE;
+	color: #555;
+}
+#sidebar .block ul {
+	
+}
+#sidebar .block li { 
+	/*
+	background: url(images/arrow.gif) no-repeat 2px 8px; 
+	padding-left: 12px;
+	*/
+	font-size:11px;
+	padding:3px 6px;
+	*height:18px;
+	*width:263px;
+	*overflow:hidden;
+	*margin:0 0 0 -16px;
+	color: #333;
+}
+#sidebar .block li.oddpost {
+	background-color: #EEE;
+}
+#sidebar .block li.evenpost {
+}
+#sidebar .block li a {
+	font-size: 13px;
+}
+#sidebar .block .morelink {
+	position: relative;
+	top: 10px;
+	text-align: right;
+	font-size: 13px;
+}
+#sidebar #rss.block a {
+	display: block;
+	background: url(images/rss.gif) no-repeat 0 0;
+	padding: 0 0 0 25px;
+	line-height: 20px;
+}
+
+/* Calendar */
+#sidebar .block #calendar_wrap a { }
+#sidebar .block #calendar_wrap .pad { background: none; }
+#sidebar .block #calendar_wrap #prev { background: none; }
+#sidebar .block #calendar_wrap #next { background: none; }
+#sidebar .block #calendar_wrap table { width: 100%; margin: 0;padding: 0;}
+#sidebar .block #calendar_wrap table th { width: 14.2%; }
+#sidebar .block #calendar_wrap table td { width: 14.2%; background: #d6ded4; text-align: center; color: #888; }
+
+
+
+/* Search
+-------------------------------------------------------------------*/
+#search {
+	
+}
+
+#search input { border: 0; }
+
+#search #s { 
+	width: 150px;
+	height: 26px;
+	padding: 3px 0 4px 5px;
+	margin-right: -4px;
+	vertical-align: top;
+	line-height: 0;
+	font: normal 12px Verdana;
+	vertical-align: top;
+	color: #333;
+}
+#search #searchsubmit { 
+	width: 56px; 
+	height: 26px;
+	text-align: center;
+	font-weight: bold;
+}
+.bt {
+	cursor: pointer;
+}
+
+
+
+/* Comments
+-------------------------------------------------------------------*/
+.comments-title { 
+	text-align: center; 
+	font: bold 17px "Trebuchet MS", Helvetica, Arial, Geneva; 
+	color: #414d4c; 
+}
+#comments .comment { 
+	background: #E7E8EB; 
+	margin-bottom: 10px; 
+	overflow: hidden; 
+	padding: 5px 7px;
+}
+#comments .comment .comment-avatar { 
+	float: left;
+}
+
+#comments .comment .comment-content { 
+	padding: 10px 15px;
+	margin: 0 0 0 57px; /* offset for the avatar */
+	background: #F7F8F9; 
+}
+#comments .comment .comment-content a { color: #444; }
+
+
+#comments .comment .comment-info { 
+	font-size: 11px;
+	color: #777;
+	margin-bottom: 5px; 
+}
+#comments .comment .comment-info span {
+	font: bold 16px "Trebuchet MS", Helvetica, Arial, Geneva;  	
+	padding-right: 10px; 
+	margin-bottom: 5px;
+}
+#comments .comment .comment-info a { 
+	color: #444; 
+	text-decoration: none;
+}
+
+/* Comment Form
+-------------------------------------------------------------------*/
+#commentform { 
+	background: #F7F8F9; 
+	border: 5px solid #E7E8EB; 
+	padding: 10px; 
+	color: #555; 
+}
+#commentform p { margin-bottom: 7px; }
+#commentform textarea { 
+	width: 100%;
+	border: 1px solid #aaa; 
+	height: 120px;
+}
+#commentform input.text { 
+	width: 150px; 
+	border: 1px solid #aaa; 
+	margin-right: 5px; 
+	padding: 3px 3px; 
+}
+#commentform input#submit {
+	width: 148px;
+	height: 30px;
+	text-align: center;
+	border: none;
+	background-color:#666;
+	color:#0CF;
+}
+#commentform input#submit:hover {
+	background-color:#OCF;
+	color:#EEE;
+}
+.ts_wp_buttonlink {
+	position:relative;
+	text-align: center;
+	background-color:#666;
+	padding:6px 14px;
+}
+.ts_wp_buttonlink:hover {
+	background-color:#0CF;
+	color:#FFF;
+	text-decoration:none;
+}
+
+/* Footer
+-------------------------------------------------------------------*/
+
+#footer { 
+	background-color: #EEE;
+}
+
+#ts_footer {
+	text-align: center;
+	padding: 10px;
+}

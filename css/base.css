@@ -1,0 +1,313 @@
+/* Topspin Offers - Wordpress plugin -> Base CSS */
+/* V1.0 */
+
+/* Store Page */
+
+/* Store Page -> Wrappers */
+
+div#topspin-offer-wrapper {
+	padding: 1% 0;
+}
+
+/* Store Page -> Wrappers -> Wrapper Modifiers */
+
+div.topspin-offer-wrapper-columns-1 {
+}
+
+div.topspin-offer-wrapper-columns-2 {
+}
+
+div.topspin-offer-wrapper-columns-3 {
+}
+
+div.topspin-offer-wrapper-columns-4 {
+}
+
+div.topspin-offer-wrapper-columns-5 {
+}
+
+/* Store Page -> Containers */
+
+div#topspin-offer-container {
+	padding: 5px 1%;
+}
+
+/* Store Page -> Containers -> Container Modifiers */
+
+
+div.topspin-offer-container-columns-1 {
+}
+
+div.topspin-offer-container-columns-2 {
+}
+
+div.topspin-offer-container-columns-3 {
+	padding-right: 0 !important;
+}
+
+div.topspin-offer-container-columns-4 {
+}
+
+div.topspin-offer-container-columns-5 {
+}
+
+/* Store Page -> Items */
+
+div.topspin-offer-item-wrapper {
+	float: left;
+	margin: 0;
+}
+
+div.topspin-offer-item-wrapper-first {
+}
+
+div.topspin-offer-item-wrapper-2nd {
+}
+
+div.topspin-offer-item-wrapper-2nd-last {
+}
+
+div.topspin-offer-item-wrapper-last {
+	margin-right: 0 !important;
+}
+
+div.topspin-offer-item {
+	padding: 0 5px;
+	margin: 0 5px 10px;
+}
+
+div.topspin-offer-item-title {
+	padding: 10px 0;
+}
+
+div.topspin-offer-item-title-1column {
+	height: 40px;
+	overflow: hidden;
+}
+
+div.topspin-offer-item-title-2column {
+	height: 40px;
+	overflow: hidden;
+}
+
+div.topspin-offer-item-title-3column {
+	height: 40px;
+	overflow: hidden;
+}
+
+div.topspin-offer-item-title-4column {
+	height: 60px;
+	overflow: hidden;
+}
+
+div.topspin-offer-item-title-5column {
+	height: 60px;
+	overflow: hidden;
+}
+
+div.topspin-offer-item-title h4 {
+	text-align: left;
+	margin: 0;
+	padding: 0;
+}
+
+div.topspin-offer-item-image {
+}
+
+div.topspin-offer-item-image img {
+	max-width: 100%; 
+	width: 100%;
+}
+
+div.topspin-offer-item-buybutton-wrapper {
+	padding: 10px 0px;
+}
+
+div.topspin-offer-item-buybutton-button {
+	float: left;
+	height: 21px;
+	margin: 0 5px 0 0;
+}
+
+div.topspin-offer-item-buybutton-button a {
+}
+
+div.topspin-offer-item-buybutton-price {
+	float: left;
+}
+
+div.topspin-offer-item-buybutton-price p {
+	line-height: 21px;
+	margin: 0 !important;
+	padding: 0;
+}
+
+/* Store Page -> Items -> Item Modifiers */
+
+div.topspin-offer-item-column-first {
+}
+
+div.topspin-offer-item-column-2nd {
+}
+
+div.topspin-offer-item-column-2nd-last {
+}
+
+div.topspin-offer-item-column-last {
+}
+
+div.topspin-offer-item-row-last {
+}
+
+div.topspin-offer-item-last {
+}
+
+/* Store Page -> Items -> Column Modifiers */
+
+div.topspin-1of1 {
+	width: 100%;
+}
+
+div.topspin-1of2 {
+	width: 50%;
+}
+
+div.topspin-1of3 {
+	width: 33%;
+}
+
+div.topspin-1of4 {
+	width: 25%;
+}
+
+div.topspin-1of5 {
+	width: 20%;
+}
+
+/* Store Page -> Pagination */
+
+div#topspin-offer-pagination-wrapper {
+	padding: 10px 1% 5px;
+}
+
+div#topspin-offer-pagination-container {
+	float: right;
+	padding: 0 5px 0 0;
+}
+
+div#topspin-offer-pagination-total {
+	float: left;
+	padding: 5px;
+}
+
+div#topspin-offer-pagination-total p {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+div#topspin-offer-pagination-navigation {
+	float: left;
+	padding: 5px;
+	font-weight: bold;
+}
+
+div#topspin-offer-pagination-navigation p {
+	text-align: left;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+span.topspin-offer-pagination-page {
+	margin: 0 5px 0 0;
+}
+
+span.topspin-offer-pagination-page a {
+}
+
+span.topspin-offer-pagination-page-current {
+}
+
+span.topspin-offer-pagination-ellipsis {
+}
+
+span.topspin-offer-pagination-ellipsis-start {
+	margin: 0 5px 0 5px;
+}
+
+span.topspin-offer-pagination-ellipsis-end {
+	margin: 0 5px 0 0;
+}
+
+span.topspin-offer-pagination-prev {
+}
+
+span.topspin-offer-pagination-next {
+}
+
+span.topspin-offer-pagination-jump {
+}
+
+span.topspin-offer-pagination-jump-last {
+}
+
+span.topspin-offer-pagination-jump-last a {
+	font-weight: bold;
+}
+
+span.topspin-offer-pagination-jump-first {
+}
+
+span.topspin-offer-pagination-jump-first a {
+	font-weight: bold;
+}
+
+/* Store Page -> Utility */
+
+.topspin-clear-both {
+	clear: both;
+}
+
+/* Store Page -> Error Messages */
+
+div#topspin-offer-error {
+	padding: 10px;
+	background: #FE0;
+	border: 1px solid #000;
+}
+
+div#topspin-offer-error h4 {
+	margin: 0 0 10px;
+	padding: 0 0 10px;
+}
+
+div#topspin-offer-error p {
+	text-align: left;
+	font-weight: bold;
+	margin: 0 0 5px;
+}
+
+.alert-300 {
+	color: #EEE;
+	background: #300;
+	border: 1px solid #C00;
+	padding: 10px;
+	margin: 0;
+}
+
+.alert-300 a {
+	color: #E00;
+}
+
+/* Topspin oEmbed CSS */
+
+div.topspin-widget {
+}
+
+div.topspin-widget-email-for-media {
+}
+
+div.topspin-widget-streaming-media {
+}
+
+div.topspin-widget-buybutton {
+}
